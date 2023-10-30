@@ -4,7 +4,7 @@ footer{
     padding-top: 10px;
     position: fixed;
     width: 100%;
-    height: 50px;
+    min-height: 50px;
     bottom: 0;
     font-weight: 700;
 }
@@ -14,6 +14,8 @@ header{
     padding: 5px;
     background-color: blanchedalmond;
     justify-content: space-between;
+    width: 100%;
+    position: fixed;
 }
 
 .imagen{
@@ -36,4 +38,17 @@ a{
 }
 a:hover{
     color: rgb(29, 221, 173);
+}
+.nav-link{
+    color:black;
+}
+
+.nav-link:hover{
+    color: rgb(29, 221, 173);
+
+}
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
 }
