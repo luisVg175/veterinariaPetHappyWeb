@@ -1,7 +1,7 @@
 # veterinariaPetHappyWeb
  
-[reserva de pacientes] 
-[registro de pacientes] Andre Marquina
-[historial de pagos] 
-[login] Luis(yo)
-[tienda]
+[reserva de pacientes]  <br>
+[registro de pacientes] Andre Marquina <br>
+[historial de pagos] <br>
+[login] Luis(yo) <br>
+[tienda] <br>
