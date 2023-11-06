@@ -13,32 +13,10 @@ main {
     margin: 0px;
     padding: 5%;
     width: 400px;
-    height: 400px;
+    height: 450px;
     border-radius: 5%;
     box-shadow: 5px 5px 50px 1px;
 
-}
-
-.usuario {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 40px;
-}
-
-.top {
-    display: grid;
-    place-items: center;
-}
-
-.abajo {
-    padding-top: 35px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.datos {
-    width: 80%;
 }
 
 .button {
@@ -49,4 +27,26 @@ main {
     padding: 15px;
     border-radius: 10px;
     color: rgb(255, 255, 255);
+}
+
+.top {
+    display: grid;
+    place-items: center;
+}
+
+.abajo {
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.usuario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+.datos {
+    width: 80%;
 }
