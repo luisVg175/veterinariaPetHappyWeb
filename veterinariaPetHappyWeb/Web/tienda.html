@@ -1,37 +1,129 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pet Happy</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="shortcut icon" href="img/img2.png">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pet Happy</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/carrito.css">
+        <link rel="shortcut icon" href="img/img2.png">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css">
+        
+    </head>
 
-<body>
-    <header>
-        <a href="#" class="imagen">
-            <img src="img/img2.png" alt="PetHappy">
-            <h2 class="nav-link">Pet Happy - Tienda</h2>
-        </a>
-        <nav class="links">
-            <a href="registro.html" class="nav-link">Registro de Pacientes</a>
-            <a href="reserva.html" class="nav-link">Reserva de Pacientes</a>
-            <a href="historial.html" class="nav-link">Historial de Pagos</a>
-            <a href="tienda.html" class="nav-link">Tienda</a>
-        </nav>
-    </header>
+    <body>
+        <header>
+            <a href="#" class="imgtienda">
+                <img src="img/img2.png" alt="PetHappy" class="PetHappy">
+                <h2 class="titulo">Pet Happy - Tienda</h2>
+            </a>
+            
+            <nav class="links">
+                <a href="registro.html" class="nav-link">Registro de Pacientes</a>
+                <a href="reserva.html" class="nav-link">Reserva de Pacientes</a>
+                <a href="historial.html" class="nav-link">Historial de Pagos</a>
+                <a href="tienda.html" class="nav-link">Tienda</a>
+            </nav>
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+        </header>
+            <!-- CART  -->
+            <div class="cart">
+                <h2 class="cart-title">Agregar al Carrito</h2>
 
-    <main>
+                <!-- CONTENT  -->
+                <div class="cart-content">
 
-    </main>
-    <footer>
-        <p>©2023 by Pet Happy</p>
-    </footer>
-</body>
 
-</html>
+                </div>
+
+                <!-- TOTAL   -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">S/. 0</div>
+                </div>
+                <!-- BUY BUTTON  -->
+                <button type="button" class="btn-buy">Comprar ahora</button>
+                <li><a href="cancelar.html"></a></li>
+                <!-- CART CLOSE  -->
+                <i class='bx bx-x' id="cart-close"></i>
+                </div>
+            </div>
+   
+        <main>
+            <section class="shop container">
+                <h2 class="section-title">Todo Los Productos de Pet Happy</h2>
+        
+                <!-- CONTENT  -->
+                <div class="shop-content">
+                    <!-- BOX 1 -->
+                <div class="product-box">
+                        <img src="img/canbo.jpg" alt="" class="product-img">
+                        <h3 class="product-title">Canbo Cachorro</h3>
+                        <span class="product-price">S/. 129.90</span>
+                        <h5>Descripción</h5>
+                        <br>
+                        <p>Alimento para cachorros.</p>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+                    <!-- BOX 2 -->
+                    <div class="product-box">
+                        <img src="img/canboAdulto.jpg" alt="Tabernero Borgoña" class="product-img">
+                        <h3 class="product-title">Canbo Adulto</h3>
+                        <span class="product-price">S/. 221.90</span>
+                        <h5>Descripción</h5>
+                        <br>
+                        <p>Alimento para perros adultos.</p>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    </div>
+                    <!-- BOX 3 -->
+                    <div class="product-box">
+                        <img src="img/bravecto1.jpg" alt="Tabernero Borgoña" class="product-img">
+                        <h3 class="product-title">Bravecto Perros(4.5-10 kg)</h3>
+                        <span class="product-price">S/. 17.90</span>
+                        <h5>Descripción</h5>
+                        <br>
+                        <p>Tratamiento antipulgas y garrapatas.</p>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    </div>
+                    <!-- BOX 4 -->
+                    <div class="product-box">
+                        <img src="img/bravecto2.jpg" alt="Tabernero Borgoña" class="product-img">
+                        <h3 class="product-title">Bravecto Perros(10 kg- 20 kg)</h3>
+                        <span class="product-price">S/. 17.90</span>
+                        <h5>Descripción</h5>
+                        <br>
+                        <p>Tratamiento antipulgas y garrapatas.</p>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    </div>
+                    <!-- BOX 5 -->
+                    <div class="product-box">
+                        <img src="img/bravecto3.jpg" alt="Tabernero Borgoña" class="product-img">
+                        <h3 class="product-title">Bravecto Perros(20 kg - 40 kg)</h3>
+                        <span class="product-price">S/. 17.90</span>
+                        <h5>Descripción</h5>
+                        <br>
+                        <p>Tratamiento antipulgas y garrapatas.</p>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    </div>
+                    <!-- BOX 6 -->
+                    <div class="product-box">
+                        <img src="img/bravecto4.jpg" alt="Tabernero Borgoña" class="product-img">
+                        <h3 class="product-title">Bravecto Gatos(2.8kg- 6.25 kg)</h3>
+                        <span class="product-price">S/. 17.90</span>
+                        <h4>Descripción</h4>
+                        <br>
+                        <p>Tratamiento antipulgas y garrapatas.</p>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    </div>
+            </section>
+        </main>
+        <footer>
+            <p>©2023 by Pet Happy</p>
+        </footer>
+        <script src="carrito.js"></script>
+    </body>
+
+    </html>
