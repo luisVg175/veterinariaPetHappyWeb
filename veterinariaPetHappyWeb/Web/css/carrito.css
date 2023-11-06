@@ -24,6 +24,7 @@ header {
     position: static;
 
 }
+
 main {
     background-color: rgba(232, 214, 255, 0.856);
 }
@@ -286,12 +287,13 @@ img {
     display: flex;
     margin: 1.5rem auto 0 auto;
     padding: 12px 20px;
-    border: none;
+    border: none;   
     background-color: var(--sec-color);
     color: var(--bg-color);
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
+    justify-content: center;
 }
 
 .btn-buy:hover {
