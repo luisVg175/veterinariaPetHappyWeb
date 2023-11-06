@@ -1,6 +1,8 @@
-/* Google Fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+main{
+    background-color: rgba(137, 137, 207, 0.856)
+}
 footer {
     background-color: blanchedalmond;
     text-align: center;
@@ -21,6 +23,9 @@ header {
     width: 100%;
     position: static;
 
+}
+main {
+    background-color: rgba(232, 214, 255, 0.856);
 }
 
 .imgtienda {
