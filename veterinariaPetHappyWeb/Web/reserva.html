@@ -14,23 +14,93 @@
 
 <body>
     <header>
-        <a href="#" class="imagen">
+        <a href="main.html" class="imagen">
             <img src="img/img2.png" alt="PetHappy">
-            <h2 class="nav-link">Pet Happy - Reserva de Pacientes</h2>
+            <h2 class="nav-link">Pet Happy - Registro de Pacientes</h2>
         </a>
         <nav class="links">
-            <a href="registro.html" class="nav-link">Registro de Pacientes</a>
             <a href="reserva.html" class="nav-link">Reserva de Pacientes</a>
             <a href="historial.html" class="nav-link">Historial de Pagos</a>
             <a href="tienda.html" class="nav-link">Tienda</a>
         </nav>
     </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="form-container">
+    <main>  
+        <section>
+            <form action="#" method="post">
 
-    <main>
+            <fieldset>
 
+                <legend>Nombre del Dueño</legend>
+                <div class="form-control">
+                    <input type="name" id="name" placeholder="Introducir datos">
+                </div>
+                <br>
+
+            <legend>Correo Electrónico</legend>
+            <div class="form-control">
+                <input type="email" id="email" placeholder="Introducir correo@email.com">
+            </div>
+            <br>
+
+            <legend>Telefono del Dueño</legend>
+            <div class="form-control">
+            <input type="tel" placeholder="Introducir numero"/>
+            </div>
+            <br>
+
+            <legend>Nombre del Paciente</legend>
+            <div class="form-control">
+                <input type="name" id="name" placeholder="Introducir nombre">
+            </div>
+            <br>
+
+            <legend>Raza del Paciente</legend>
+            <div class="form-control">
+                <input type="name" id="name" placeholder="Introducir raza">
+            </div>
+            <br>
+            
+            <legend>¿Es alérgico?</legend>
+            <div class="form-control">
+                <select id="alergic">
+                    <option value="si">Sí</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            
+
+            <legend>Fecha de Nacimiento del Paciente</legend>
+            <div class="form-control">
+            <input type="date" />
+            </div>
+            <br>
+            <br>
+
+            <label for="check">Acepta terminos y condiciones</label>
+            <input type="checkbox" id="check" />
+            <br>
+            <br>
+
+            <input type="button" value="Registrar">
+
+            </fieldset>
+        </form>
+        </section>
     </main>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
     <footer>
-        <p>©2023 by Pet Happy</p>
+    <p>©2023 by Pet Happy</p>
     </footer>
 </body>
 

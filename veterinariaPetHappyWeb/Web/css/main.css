@@ -4,7 +4,7 @@ footer{
     padding-top: 10px;
     position: fixed;
     width: 100%;
-    min-height: 50px;
+    min-height: 40px;
     bottom: 0;
     font-weight: 700;
 }
@@ -15,12 +15,65 @@ header{
     background-color: blanchedalmond;
     justify-content: space-between;
     width: 100%;
-    position: fixed;
+    height: 20%;
+    position: static;
+}
+.form-container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1000px; /* Ajusta la altura mínima según tus necesidades */
+    padding: 20px; /* Agrega espacio interno al contenedor */
+    border:0px;
+    border-radius: 0px; /* Redondea las esquinas del contenedor */
+}
+body {
+    background-color: rgba(232, 214, 255, 0.856);;
+    margin: 0; /* Esto asegura que no haya márgenes en el body */
+    padding: 0; /* Esto asegura que no haya relleno en el body */
+    font-family: 'Poppins', sans-serif; /* Esto define una fuente personalizada */
+}
+form {
+    text-align: center; /* Alinea el contenido del formulario al centro */
+    padding: 20px; /* Agrega espacio interno al formulario */
+    background-color: rgba(255, 255, 255, 0.9); /* Agrega un fondo al formulario */
+    border: 2px solid rgba(232, 214, 255, 0.856) ;/* Agrega un borde al formulario */
+    border-radius: 40px; /* Redondea las esquinas del formulario */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Agrega una sombra al formulario */
+}
+
+
+.buy-button {
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: rgba(167, 137, 207, 0.856); /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado del botón */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    text-decoration: none; /* Eliminar la decoración de texto */
+}
+
+.buy-button:hover {
+    background-color: #45a049; /* Cambiar el color de fondo al pasar sobre el botón */
+}
+.form-control {
+    background-color: transparent; /* Establece el fondo como transparente */
+    border: none; /* Elimina los bordes */
+}
+
+
+/* Define un ancho máximo para los productos en dispositivos móviles */
+@media (max-width: 768px) {
+    .product-box {
+        max-width: 100%; /* Ocupa el ancho completo en dispositivos móviles */
+    }
 }
 
 .imagen{
     display: flex;
     align-items: center;
+    width: 10;
+    height: 10;
 }
 .links{
     display: flex;
@@ -28,7 +81,7 @@ header{
     font-weight: 600;
 }
 .imagen img{
-    padding-right: 15px;
+    padding-right: 10px;
 }
 a{
     text-decoration: none;
@@ -44,9 +97,27 @@ a:hover{
 .nav-link:hover{
     color: rgb(29, 221, 173);
 
+
 }
 @media (max-width:700px){
     header{
         flex-direction: column;
     }
 }
+/* boton submit */
+input[type="submit"] {
+    background-color: rgba(255, 214, 233, 0.493); /* Color de fondo del botón */
+    color: rgb(41, 21, 21); /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado del botón */
+    border: 2px solid rgba(140, 104, 187, 0.856); /* Borde del botón */
+    border-radius: 5px; /* Radio de borde para hacerlo más redondeado */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+}
+
+input[type="submit"]:hover {
+    background-color: #8645a0; /* Cambiar el color de fondo al pasar sobre el botón */
+    border: 2px solid #a04594; /* Cambiar el color del borde al pasar sobre el botón */
+}
+
+
+

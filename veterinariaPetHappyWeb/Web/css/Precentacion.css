@@ -1,0 +1,38 @@
+.top{
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.vision{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.visionTxt{
+    margin-right: 30px;
+    width: 300px;
+    height: 400px;
+    font-size: 20px;
+    text-align: justify;
+}
+img{
+    border-radius: 30px;
+}
+
+.mision{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.misionTxt{
+    margin-left: 30px;
+    width: 300px;
+    height: 400px;
+    font-size: 20px;
+    text-align: justify ;
+}
